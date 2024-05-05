@@ -51,16 +51,15 @@ import aiohttp,aiofiles
 client = TensorClient()
 
 # Create ai image
-image_url = await client.create(model_id=1,prompt="blonde girl sitting in garden")
+image_url = await client.create(model_id=1, prompt="blonde girl sitting in garden")
 
-# save image binary data
-async with aiohttp.ClientSession as session:
-    async with session.get(image_url) as response:
-        async with aiofiles.open('image.png','wb') as f:
-            await f.write(await response.content)
+# Save image binary data
+async with aiohttp.ClientSession() as session:
+    async with session.get(image_url['url']) as response:
+        async with aiofiles.open('image.png', mode='wb') as f:
+            await f.write(await response.read())
 
 # image will be saved as image.png
-
 ```
 
 # Note
