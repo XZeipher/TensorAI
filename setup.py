@@ -8,7 +8,7 @@ setup(
     name='TensorART',
     author='Alpha Coder',
     author_email='alphacoders@yahoo.com',
-    version='0.1',
+    version='0.0.1',
     long_description=readme,
     long_description_content_type="text/markdown",
     url='https://github.com/XZeipher/TenorAI',
