@@ -1,0 +1,9 @@
+README.md
+setup.py
+TensorART/__init__.py
+TensorART/main.py
+TensorART.egg-info/PKG-INFO
+TensorART.egg-info/SOURCES.txt
+TensorART.egg-info/dependency_links.txt
+TensorART.egg-info/requires.txt
+TensorART.egg-info/top_level.txt
