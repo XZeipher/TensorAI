@@ -8,10 +8,10 @@ setup(
     name='TensorART',
     author='Alpha Coder',
     author_email='alphacoders@yahoo.com',
-    version='0.0.1',
+    version='1.0.0',
     long_description=readme,
     long_description_content_type="text/markdown",
-    url='https://github.com/XZeipher/TenorAI',
+    url='https://github.com/XZeipher/TensorAI',
     license='GNU General Public License v3.0',
     classifiers=[
         "Framework :: AsyncIO",
