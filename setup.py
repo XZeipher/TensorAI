@@ -1,17 +1,17 @@
 from setuptools import setup
 
-requirements = ['aiohttp']
+requirements = ['aiohttp','aiofiles']
 readme = ''
-with open('README.md', encoding="utf8") as f:
+with open("README.md", encoding="utf-8") as f:
     readme = f.read()
-
 setup(
     name='TensorART',
     author='Alpha Coder',
     author_email='alphacoders@yahoo.com',
     version='0.1',
     long_description=readme,
-    url='https://github.com/XZeipher/TENSOR',
+    long_description_content_type="text/markdown",
+    url='https://github.com/XZeipher/TenorAI',
     license='GNU General Public License v3.0',
     classifiers=[
         "Framework :: AsyncIO",
